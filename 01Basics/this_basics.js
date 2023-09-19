@@ -31,6 +31,8 @@ const sum = (num1,num2) => {
 
 const add = (num1,num2) => num1+num2 //implicit return
 const addTwo = (num1,num2) => (num1+num2 ) //implicit return
+const objreturn = () => ({username:"shivam",department:"Development"})
 // console.log(sum(2,4))
 // console.log(add(4,6))
 // console.log(addTwo(6,8))
+console.log(objreturn())
